@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom/client';
 import "./scss/custom.scss";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import { HelmetProvider } from 'react-helmet-async';
+=======
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <HelmetProvider>
     <App />
     </HelmetProvider>
+=======
+    <App />
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
   </React.StrictMode>
 );
 

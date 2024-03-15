@@ -18,12 +18,16 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
+<<<<<<< HEAD
 import ReactGA from "react-ga";
+=======
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 
+<<<<<<< HEAD
 const TrackingId = "G-0E8VWPSH3T";
 ReactGA.initialize(TrackingId);
 
@@ -32,6 +36,8 @@ ReactGA.send({
    page: window.location.pathname,
 });
 
+=======
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
 const Home = React.forwardRef((props, ref) => {
   return (
     <>

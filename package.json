@@ -2,7 +2,11 @@
   "homepage": "http://kishore.com/",
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
+<<<<<<< HEAD
   "private": true,
+=======
+  "private":true,
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
   "version": "2.0.0",
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
@@ -11,7 +15,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "@types/react-router": "^5.1.20",
+=======
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
     "antd": "^5.15.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
@@ -20,12 +27,19 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-ga": "^3.3.1",
     "react-helmet-async": "^2.0.4",
     "react-icons": "^5.0.1",
     "react-loading-skeleton": "^3.1.0",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.22.3",
+=======
+    "react-icons": "^5.0.1",
+    "react-loading-skeleton": "^3.1.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
     "react-scripts": "5.0.1",
     "react-typist-component": "^1.0.3",
     "sass": "^1.54.3",

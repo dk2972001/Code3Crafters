@@ -1,7 +1,10 @@
 // contactformapi.jsx
 import axios from "axios";
 import React, { useState } from "react";
+<<<<<<< HEAD
 import { Helmet } from "react-helmet-async";
+=======
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
 
 const EmailRestAPI = () => {
   const [name, setName] = useState("");
@@ -46,6 +49,7 @@ const EmailRestAPI = () => {
   };
 
   return (
+<<<<<<< HEAD
 
     <><Helmet>
       <title>ontact US</title>
@@ -81,6 +85,40 @@ const EmailRestAPI = () => {
           <div style={{ marginTop: "20px" }}>Email sent successfully!</div>
         )}
       </div></>
+=======
+    <div>
+      <form onSubmit={handleSubmit} className="emailForm">
+        <input
+          type="text"
+          placeholder="Your Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="number"
+          placeholder="Your Number"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+        />
+        <textarea
+          cols="30"
+          rows="10"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        ></textarea>
+        <button type="submit">Send Email</button>
+      </form>
+      {successMessageVisible && (
+        <div style={{ marginTop: "20px" }}>Email sent successfully!</div>
+      )}
+    </div>
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
   );
 };
 

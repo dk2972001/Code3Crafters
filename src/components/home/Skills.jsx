@@ -5,7 +5,10 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 import { Jumbotron } from "./migration";
+<<<<<<< HEAD
 import { Helmet } from "react-helmet-async";
+=======
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
 
 // Import FontAwesome icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,6 +27,7 @@ const Skills = React.forwardRef(({ heading }, ref) => {
   );
 
   return (
+<<<<<<< HEAD
     <><Helmet>
       <title>Skills</title>
       <meta
@@ -76,6 +80,54 @@ const Skills = React.forwardRef(({ heading }, ref) => {
           </Tabs>
         </Container>
       </Jumbotron></>
+=======
+    <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
+      <Container className="p-5">
+        <h2 ref={skillsTabRef} className="display-4 pb-5 text-center hao">
+          {heading}
+        </h2>
+        <Tabs
+          className="skills-tabs"
+          defaultActiveKey="project-hub"
+          id="skills-tabs"
+          fill
+        >
+          <Tab tabClassName="skills-tab lead" eventKey="project-hub">
+            <Row className="pt-3 px-1">
+              <div className="project-hub-content">
+                <p style={{ fontSize: "1.2em" }}> {/* Adjust the font size here */}
+                  We are the leading professional project maker that offers
+                  projects for college students. We provide working projects,
+                  readymade projects, readymade dissertation and thesis for the
+                  students of  MCA, BCA, B. Tech, IT and many more...
+                </p>
+                <ul style={{ fontSize: "1.2em" }}> {/* Adjust the font size here */}
+                  <li>
+                    100% tested and approved Project
+                  </li>
+                  <li>
+                    1000+ Projects Available
+                  </li>
+                  <li>
+                    Varied Specializations
+                  </li>
+                  <li>
+                    Full Project = Synopsis + Report + PPT
+                  </li>
+                  <li>
+                    Delivery to your inbox
+                  </li>
+                  <li>
+                    Cost Effective
+                  </li>
+                </ul>
+              </div>
+            </Row>
+          </Tab>
+        </Tabs>
+      </Container>
+    </Jumbotron>
+>>>>>>> ef234a1e31f3a84829ec0f07518ab90a3cfc81a9
   );
 });
 
